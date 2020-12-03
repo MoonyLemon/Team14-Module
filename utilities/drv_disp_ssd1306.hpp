@@ -18,7 +18,7 @@
  * @file 	:	drv_disp_ssd1306.h
  * @author  :	beforelight/肖日涛(qq:1761690868)
  * @author  :   CkovMk/马奇科(qq:905497173)
- * @version :	v0.1.1
+ * @version :	v0.2.1
  *
  * @date 	:	v0.1-beta.0 2018.08.12 CkovMk
  * @date 	:	v0.1.1		2019.09.22 beforelight
@@ -29,8 +29,8 @@
  */
 
 #pragma once
-#ifndef _DISP_SSD1306_H_
-#define _DISP_SSD1306_H_
+#ifndef UTILITIES_DRV_DISP_SSD1306_HPP
+#define UTILITIES_DRV_DISP_SSD1306_HPP
 #include "inc_stdlib.hpp"
 #include "hitsic_common.h"
 
@@ -146,4 +146,4 @@ void DISP_SSD1306_BufferUploadDMA(uint8_t *buffer);
 
 #endif // ! HITSIC_USE_DISP_SSD1306
 
-#endif // ! _DISP_SSD1306_H_
+#endif // ! UTILITIES_DRV_DISP_SSD1306_HPP
