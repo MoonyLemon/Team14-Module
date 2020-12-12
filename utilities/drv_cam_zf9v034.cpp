@@ -31,7 +31,7 @@ void CAM_ZF9V034_GetDefaultConfig(cam_zf9v034_configPacket_t *config)
     config->VerticalOffsetCmd = (uint16_t)cam_zf9v034_cmd_t::UD_OFFSET;
 	config->VerticalOffset = 0;
     config->imageGainCmd = (uint16_t)cam_zf9v034_cmd_t::GAIN;
-	config->imageGain = 32;
+	config->imageGain = 16;//32
     config->initCmd = (uint16_t)cam_zf9v034_cmd_t::INIT;
 	config->dummyData0 = 0;
 }
