@@ -122,7 +122,7 @@ void DISP_SSD1306_Print_F6x8(uint8_t x,uint8_t y,const char* str);
 //-------------------------------------------------------------------------------------------------------------------
 void DISP_SSD1306_Print_F8x16(uint8_t x,uint8_t y,const char* str);
 
-//void DISP_SSD1306_Printf_F6x8(uint8_t x,uint8_t y,const char* fmt, ...);
+void DISP_SSD1306_Printf_F6x8(uint8_t x,uint8_t y,const char* fmt, ...);
 //
 //void DISP_SSD1306_Printf_F8x16(uint8_t x,uint8_t y,const char* fmt, ...);
 

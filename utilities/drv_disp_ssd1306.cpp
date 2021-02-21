@@ -201,14 +201,15 @@ void DISP_SSD1306_Print_F8x16(uint8_t x,uint8_t y,const char* str)
 }
 
 
-//void DISP_SSD1306_Printf_F6x8(uint8_t x,uint8_t y,const char* fmt, ...)
-//{
-//	va_list args;
-//	va_start(args, fmt);
-//	static char* buf = new char[64];
-//	vsnprintf(buf, 64, fmt, args);
-//	DISP_SSD1306_Print_F6x8(x, y, buf);
-//}
+void DISP_SSD1306_Printf_F6x8(uint8_t x,uint8_t y,const char* fmt, ...)
+{
+	va_list args;
+	va_start(args, fmt);
+	static char* buf = new char[64];
+	vsnprintf(buf, 64, fmt, args);
+	DISP_SSD1306_Print_F6x8(x, y, buf);
+}
+
 //
 //void DISP_SSD1306_Printf_F8x16(uint8_t x,uint8_t y,const char* fmt, ...)
 //{
